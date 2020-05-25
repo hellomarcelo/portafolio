@@ -1,13 +1,13 @@
 
 /*--------------------BASIC--------------------*/
 
-html {font-size: 112.5%;} /*18px*/
+html {font-size: 137.5%;} /*22px*/
 
 * {font-family: 'DM Sans', sans-serif;}
 
 p {
     font-family: 'Karla', sans-serif;
-    font-size: 1.333em;
+    font-size: 1em !important;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -16,18 +16,18 @@ h1,h2,h3,h4,h5,h6{
 
 h1 {
     margin-top: 0;
-    font-size: 5.653em;
+    font-size: 4.209em;
   }
   
-h2 {font-size: 3.998em;}
+  h2 {font-size: 3.157em;}
   
-h3 {font-size: 2.827em;}
+  h3 {font-size: 2.369em;}
   
-h4 {font-size: 1.999em;}
+  h4 {font-size: 1.777em;}
   
-h5 {font-size: 1.414em;}
+  h5 {font-size: 1.333em;}
   
-small{font-size: 0.707em;}
+  small {font-size: 0.75em;}
 
 li{margin-left: 1em;}
 
@@ -39,7 +39,7 @@ li{margin-left: 1em;}
 /*--------------------NAVBAR--------------------*/
 
 .collapse a { 
-    font-size: 1.125rem;
+    font-size: 0.75rem;
     font-weight: 500;
     color: black !important;
 }
@@ -50,7 +50,7 @@ li{margin-left: 1em;}
 }
 
 .hello-cta {
-    background-color: black;
+    background-color: #82e415;
     color: white;
     padding: 0 0.25em 0 0.25em;
     border-radius: 8px;
@@ -61,7 +61,7 @@ li{margin-left: 1em;}
 }
 
 .hello-cta:hover{
-    background-color: #82e415;
+    background-color: #77cf12;
     transition: 250ms ease;
 }
 
@@ -71,8 +71,8 @@ li{margin-left: 1em;}
 }
 
 .top-nav {
-    height: 120px;
     font-size: 1.777em;
+    font-weight: 700;
 }
 
 .navbot{
@@ -105,3 +105,92 @@ li{margin-left: 1em;}
 /*--------------------HERO--------------------*/
 
 
+.hero {
+    height: 80vh;
+}
+
+.hero p{
+    margin-bottom: 3em;
+}
+
+.hero a{
+  
+    text-decoration: none;
+    color: black;
+}
+
+.hero .fas {
+    font-size: 1em;
+    color: black;
+}
+
+
+.hero a:hover{
+    color: rgb(58, 58, 58);
+}
+
+.hero .fas:hover {
+    color: rgb(58, 58, 58);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 575.98px) {
+     
+      h1 {font-size: 3.5em;}
+
+      h2 {font-size: 2.827em;}
+
+      h3 {font-size: 1.999em;}
+      
+      p {font-size: 1em !important;}
+
+     .hero {
+         height: 90vh;
+     }
+    
+  }
+
+
+ @media (max-width: 767.98px) { 
+
+    h1 {font-size: 3.5em;}
+
+    h2 {font-size: 2.827em;}
+
+    h3 {font-size: 1.999em;}
+
+    .hero {
+        height: 90vh;
+    }
+
+  
+  }
+ 
+
+ @media (max-width: 991.98px) { 
+    h1 {font-size: 3.5em;}
+
+    h2 {font-size: 2.827em;}
+
+    h3 {font-size: 1.999em;}
+
+
+ }
+ 
+
+ @media (max-width: 1199.98px) { ... }
