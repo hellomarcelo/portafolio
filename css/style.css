@@ -1,0 +1,45 @@
+
+
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.333em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.top-nav {
+    font-family: 'Days One', sans-serif;
+    font-size: 1.777em;
+}
+
+.navbot{
+    box-shadow: 0 -5px 10px -5px rgb(216, 216, 216);
+    height: 56px;
+}
+.navbot-row{
+    height: 100%;
+}
+
+.fas {
+    color: #242424;
+    font-size: 1.5em;
+}
+
+.far {
+    color: #242424;
+    font-size: 1.5em;
+}
+
+.fas:hover{
+    color: #82e415;
+    transition: 250ms ease;
+}
+
+.far:hover{
+    color: #82e415;
+    transition: 250ms ease;
+}
