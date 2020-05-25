@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -17,6 +19,8 @@
 
     <!-- CSS Styles -->
     <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Marcelo Rodríguez | Diseñador UI/UX</title>
   </head>
@@ -67,7 +71,7 @@
 
 
     <!--HERO-->
-    <section class="hero d-flex align-items-center">
+    <section class="hero d-flex align-items-center" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-200">
         <div class="container">
             <div class="row text-center text-md-left text-lg-left ">
                 <div class="col-12">
@@ -75,7 +79,7 @@
                          Diseñador UI/UX<br> 
                          <strong class="d-none d-sm-block"> Santiago, CL.</strong>
                     </h1>
-                    <i class="fas fa-arrow-circle-right"><a href="#go" class=""> Ve mi portafolio</a></i>
+                    <a href="#go" class=""><i class="fas fa-arrow-circle-right"></i> Ve mi portafolio</a>
                 </div>
         </div>
     </section>
@@ -86,11 +90,11 @@
     <!--PORTAFOLIO-->
     <section class="portafolio">
         <div class="container">
-            <div id="go" class="row portafolio-box shadow">
+            <div id="go" class="row portafolio-box shadow" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-200">
                 <div class="col-12 portafolio-image col-lg-5 bg-success">
                 </div>
                 <div class="col-12 col-lg-7">
-                   <div class="row">
+                   <div class="row"> 
                        <div class="col-12 portafolio-content">
                            <small>Diseño & Desarrollo</small>
                            <h2>La información
@@ -102,7 +106,7 @@
                 </div>
             </div>
 
-            <div class="row portafolio-box shadow">
+            <div class="row portafolio-box shadow" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-200">
                 <div class="col-12 col-lg-5 bg-success">
                 </div>
                 <div class="col-12 portafolio-image col-lg-7">
@@ -117,7 +121,7 @@
                 </div>
             </div>
 
-            <div class="row portafolio-box shadow">
+            <div class="row portafolio-box shadow" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-200">
                 <div class="col-12 col-lg-5 bg-success">
                 </div>
                 <div class="col-12 portafolio-image col-lg-7">
@@ -126,15 +130,42 @@
                            <small>Diseño & Desarrollo</small>
                            <h2>Lo mejor del mundo pyme</h2>
                            <p>Pymelocal es un catálogo en línea de los mejores productos y servicios de la pequeña y mediana empresa en nuestro país.</p>
-                           <i class="fas fa-arrow-circle-right"><a href="" class=""> Ir a estudio de caso</a></i>
+                           <i class="fas fa-arrow-circle-right"><a href="portafolio/pymelocal.html" class=""> Ir a estudio de caso</a></i>
                         </div>
                    </div>
                 </div>
             </div>
-
-            
         </div>
     </section>
+
+
+
+
+    <!--LINK-->
+
+ <section class="link d-none d-lg-block d-xl-block" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-200">
+  <div class="container">
+    <div class="row mb-4 footer-box">
+      <div class="col-12">
+        <h2 class="mb-4">Di hola</h2>
+        <h3 class="mb-2"><a href="mailto:helllomarcelo@gmail.com">helllomarcelo@gmail.com</a></h3>
+        <h3><a href="https://wa.me/56952196057?text=Di%20hola" target="_blank">+569 52196057</a></h3>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 class="mb-4">Buscame en:</h2>
+        <div class="row mb-4 link-box">
+          <a href="https://www.linkedin.com/in/marcelorodriguez-ui-ux/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.behance.net/helllomarcelo" target="_blank"><i class="fab fa-behance"></i></a>
+          <a href="https://github.com/hellomarcelo" target="_blank"><i class="fab fa-github-alt"></i></a>
+          <a href="https://www.instagram.com/thasb0y/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
 
 
 
@@ -159,5 +190,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+          easing: 'ease',
+	duration: 1000,
+	once: true
+        }
+      );
+    </script>
 </body>
 </html>

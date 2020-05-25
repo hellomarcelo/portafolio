@@ -26,10 +26,14 @@ h1 {
   h4 {font-size: 1.777em;}
   
   h5 {font-size: 1.333em;}
+
+  h6 {font-size: 1em;}
   
   small {font-size: 0.75em;}
 
 li{margin-left: 1em;}
+
+span{font-size: 3em; color: #b8b8b8;}
 
 
 
@@ -85,17 +89,17 @@ li{margin-left: 1em;}
 }
 
 .navbot-box {
-    margin: 0 2em 0 2em;
+    margin: 0 1.5em 0 1.5em;
 }
 
 .fas {
     color: #dcdcdc;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .far {
     color: #dcdcdc;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .fas-active{
@@ -147,7 +151,7 @@ li{margin-left: 1em;}
 }
 
 .portafolio-box {
-    margin-bottom: 4em;
+    margin-bottom: 7.5em;
 }
 
 .portafolio-image img{
@@ -185,6 +189,138 @@ li{margin-left: 1em;}
 }
 
 
+/*------------------FOOTER---------------------*/
+
+.link {
+    padding-bottom: 3em;
+}
+
+.link h2 {
+    color: #474747;
+}
+
+.link-box {
+    margin-left: 2em;
+}
+
+.link a{
+    color: black;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #82e415;
+    text-decoration: none;
+    transition: 250ms ease;
+}
+
+.link .fab {
+    margin-left: 0.5em;
+    font-size: 2.1em;
+}
+
+.fab:hover{
+  color: #82e415;
+  transition: 250ms ease;
+}
+
+
+
+/*-------------------PORTAFOLIO--------------------*/
+
+.portada {
+    margin-top: 3em;
+}
+
+.portada small {
+   color: #82e415;
+}
+
+.portada img {
+    width: 100%;
+}
+
+.portada h4{
+    color: #474747;
+}
+
+
+
+
+/*-------------------RESUMEN--------------------*/
+
+.resumen {
+    margin-top: 7.5em;
+}
+
+/*-------------------PROBLEMA--------------------*/
+
+.problema {
+    margin-top: 3em;
+}
+
+/*-------------------CONCEPTO--------------------*/
+.concepto {
+    margin-top: 3em;
+}
+
+.concepto img {
+    width: 100%;
+}
+
+.concepto .mobile {
+    width: 70%;
+}
+
+.logotipo {
+    width: 100%;
+}
+
+.prototipo {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
+.proximo-proyecto {
+    margin-top: 7.5em;
+    margin-bottom: 7.5em;
+}
+
+.proximo-proyecto a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.proximo-proyecto h3{
+    margin-bottom: 1.5em;
+}
+
+.proximo-proyecto h4{
+    color: #474747;
+}
+
+.proximo-proyecto .fas {
+    font-size: 1em;
+    color: black;
+}
+
+
+.proximo-proyecto a:hover{
+    color: rgb(58, 58, 58);
+}
+
+.proximo-proyecto .fas:hover {
+    color: rgb(58, 58, 58);
+}
+
+
+/*-------------------FOOTER--------------------*/
+
+.footer {
+    margin-top: 3em;
+}
 
 
 
