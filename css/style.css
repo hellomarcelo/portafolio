@@ -25,21 +25,17 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .fas {
-    color: #242424;
+    color: #dcdcdc;
     font-size: 1.5em;
 }
 
 .far {
-    color: #242424;
+    color: #dcdcdc;
     font-size: 1.5em;
 }
 
-.fas:hover{
-    color: #82e415;
-    transition: 250ms ease;
-}
 
-.far:hover{
-    color: #82e415;
-    transition: 250ms ease;
+
+.fas-active{
+    color: #272727;
 }
