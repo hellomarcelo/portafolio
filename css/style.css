@@ -31,9 +31,11 @@ h1 {
   
   small {font-size: 0.75em;}
 
-li{margin-left: 1em;}
+li{margin-left: 1em; color: black; font-weight: 500;} 
 
 span{font-size: 3em; color: #b8b8b8;}
+
+small{color: #b8b8b8;}
 
 
 
@@ -154,10 +156,14 @@ span{font-size: 3em; color: #b8b8b8;}
     margin-bottom: 7.5em;
 }
 
-.portafolio-image img{
-   width: 100%;
-   height: 100%;
- 
+.port-img-1{
+    background-image: url(../images/academia.png);
+    background-size: contain;
+}
+
+.port-img-3{
+    background-image: url(../images/pymelocal.png);
+    background-size: contain;
 }
 
 .portafolio-content {
@@ -233,7 +239,7 @@ span{font-size: 3em; color: #b8b8b8;}
 }
 
 .portada small {
-   color: #82e415;
+   color: #474747;
 }
 
 .portada img {
@@ -260,7 +266,9 @@ span{font-size: 3em; color: #b8b8b8;}
 }
 
 /*-------------------CONCEPTO--------------------*/
+
 .concepto {
+    margin-bottom: 3em;
     margin-top: 3em;
 }
 
@@ -315,6 +323,14 @@ span{font-size: 3em; color: #b8b8b8;}
     color: rgb(58, 58, 58);
 }
 
+.papel{
+    padding-top: 2em;
+}
+
+.presentacion {
+    margin-top: 7.5em;
+    margin-bottom: 7.5em;
+}
 
 /*-------------------FOOTER--------------------*/
 
