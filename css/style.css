@@ -395,7 +395,7 @@ small{color: #b8b8b8;}
 
     h1 {font-size: 3em;}
 
-    h2 {font-size: 2.369em;}
+    h2 {font-size: 2.1em; margin-bottom: 1em;}
     
     h3 {font-size: 1.777em;}
     
@@ -404,6 +404,8 @@ small{color: #b8b8b8;}
         padding: 1.5em;
         padding-bottom: 2em;
     }
+
+    span{font-size: 1.5em; color: #b8b8b8;}
 
 
  }
