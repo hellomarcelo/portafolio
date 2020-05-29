@@ -108,6 +108,10 @@ small{color: #b8b8b8;}
     color: #272727;
 }
 
+.far-active{
+    color: #272727;
+}
+
 
 
 
@@ -389,17 +393,18 @@ small{color: #b8b8b8;}
  @media (max-width: 991.98px) { 
 
     body {
-        margin: 0 0.3em 0 0.3em;
+        margin: 0 0.1em 0 0.1em;
     }
     
 
     h1 {font-size: 2.5em;}
 
-    h2 {font-size: 2.1em; margin-bottom: 1em;}
+    h2 {font-size: 2.2em; margin-bottom: 1em;}
     
     h3 {font-size: 1.777em;}
     
     h4 {font-size: 1.333em;}
+    
     .portafolio-content {
         padding: 1.5em;
         padding-bottom: 2em;
