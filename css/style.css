@@ -112,6 +112,38 @@ small{color: #b8b8b8;}
     color: #272727;
 }
 
+.portada-mimi img {
+   height: 100%;
+}
+
+.sujeto {
+
+}
+
+.sujeto img{
+padding: 0.5em;
+  width: 100%;
+  margin: 1em 0 1em 0;
+
+}
+
+.persona-ux{
+    margin-top: 2em; 
+}
+
+.persona-ux p{
+    font-size: 0.8em !important;
+}
+
+.personas img{
+    padding: 0.5em;
+}
+
+.proto-papel {
+    width: 100%;
+}
+
+
 
 
 
@@ -171,6 +203,7 @@ small{color: #b8b8b8;}
     background-size: contain;
     width: 100%;
     background-repeat: no-repeat;
+    
 
 }
 
@@ -283,7 +316,7 @@ small{color: #b8b8b8;}
 
 .concepto {
     margin-bottom: 3em;
-    margin-top: 3em;
+    margin-top: 4em;
 }
 
 .concepto img {
@@ -347,6 +380,11 @@ small{color: #b8b8b8;}
 .presentacion {
     margin-top: 7.5em;
     margin-bottom: 7.5em;
+}
+
+.sobre img {
+    width: 80%;
+
 }
 
 /*-------------------FOOTER--------------------*/
